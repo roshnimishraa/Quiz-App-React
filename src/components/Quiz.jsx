@@ -18,7 +18,8 @@ export default function Quiz(){
      });
      }
     return (
-        <div id="questions">
+     <div id= "quiz">
+         <div id="questions">
     <h2>{QUESTIONS[activeQuestionIndex].text}</h2>
      <ul id="answers">
         {QUESTIONS[activeQuestionIndex].answers.map((answer) => (
@@ -28,5 +29,6 @@ export default function Quiz(){
         ))}
      </ul>
         </div>
+     </div>
     )
 }
