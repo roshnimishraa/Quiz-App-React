@@ -324,6 +324,91 @@ header h1 {
   letter-spacing: 0.1rem;
 }
 
+
+.quiz-options-card {
+  background: rgba(42, 31, 77, 0.95);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  max-width: 500px;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.quiz-options-card h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.quiz-form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.quiz-form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.quiz-dropdown {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+.quiz-start-btn {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.quiz-start-btn.enabled {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  cursor: pointer;
+}
+
+.quiz-start-btn.disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+
+.play-again-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.play-again-btn {
+  padding: 12px 20px;
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 200px;
+}
+
+.play-again-btn:hover {
+  opacity: 0.9;
+}
+
+
 @keyframes slide-in-from-bottom {
   0% {
     opacity: 0;
